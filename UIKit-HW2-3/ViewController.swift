@@ -105,7 +105,6 @@ class ViewController: UIViewController {
         if let icon {
             button.setImage(resizeImage(image: icon, width: iconWidth, height: iconHeight), for: .normal)
         }
-        
         button.frame = CGRect(x: x, y: y, width: width, height: height)
         button.backgroundColor = bgColor
         button.layer.cornerRadius = radius
